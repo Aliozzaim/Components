@@ -1,0 +1,45 @@
+.t1 {
+  font-family: "Montserrat", sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 15px;
+  letter-spacing: 0em;
+  text-align: left;
+  background: #4a4b4d;
+
+  span {
+    display: block;
+  }
+
+  @media only screen and (max-width: 1024px) {
+    font-size: 1.8rem;
+  }
+  @media only screen and (max-width: 768px) {
+    font-size: 1.4rem;
+  }
+}
+.t2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29.39px;
+  color: #fff;
+  span {
+    color: $color-primary;
+  }
+}
+.t3 {
+  font-family: "Montserrat";
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 19px;
+  letter-spacing: 0em;
+  height: 19px;
+}
+.t4 {
+  font-size: 1.1rem;
+}
+.s1 {
+  font-size: 0.9rem;
+  color: #909090;
+}

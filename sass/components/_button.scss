@@ -1,0 +1,52 @@
+.button {
+  height: 61px;
+  width: 199px;
+  font-family: "Montserrat";
+  border-radius: 50px;
+  color: #fff;
+  font-weight: 900;
+  border: none;
+  font-size: 16px;
+  letter-spacing: 2px;
+  cursor: pointer;
+  position: relative;
+  outline: none;
+
+  &--warning {
+    background-color: rgba($color-warning, 1);
+    color: black;
+
+    &:hover {
+      background-color: rgba($color-warning, 0.6);
+    }
+    span {
+      &:hover {
+        border-bottom: 2px solid purple;
+      }
+    }
+  }
+}
+
+// &--middle {
+//   font-size: 0.9rem;
+//   padding: 1.5rem 7rem;
+// }
+// &--big {
+//   font-size: 1rem;
+//   padding: 2rem 8rem;
+//   white-space: nowrap;
+// }
+
+// &--pink {
+//   background-color: rgba(#ee4266, 1);
+
+//   &:hover {
+//     background-color: rgba(#ee4266, 0.6);
+//   }
+// }
+// &--purple {
+//   background-color: rgba(#540d6e, 0.8);
+//   &:hover {
+//     background-color: rgba(#540d6e, 0.6);
+//   }
+// }
